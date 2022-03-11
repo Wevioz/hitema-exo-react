@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export  function HeaderCalendar ({setActualDate}){
+export  function Header ({setActualDate}){
     const [date , setDate] = useState(new Date());
 
     function handleYear(type){

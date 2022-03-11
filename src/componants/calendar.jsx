@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { HeaderCalendar } from "./headerCalendar"
+import { Header } from "./header"
 import style from './calendar.css'
 
 
@@ -16,7 +16,7 @@ export  function Calendar (){
     
     return <>
     <div className="container">
-        <HeaderCalendar setActualDate={setActualDate}></HeaderCalendar>
+        <Header setActualDate={setActualDate}></Header>
         <div className="dayCalendar">
             <div className="row">
                 {weekDays.map(day => (
